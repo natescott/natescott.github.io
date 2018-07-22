@@ -26,8 +26,7 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-body, input, textarea {
-}
+
 a:link, a:visited {
 	color: #F1505A;
 }
@@ -83,10 +82,7 @@ em {
 	font-style: normal;
 	font-family: 'Open Sans';
 }
-.muted {
-	color: #A5A5A2;
-	font-family: 'Quattrocento', serif;
-}
+
 .impressed {
 	text-shadow:
  -1px -1px 0 rgba(0, 0, 0, 0.5), /* shadow */  1px 1px 0 rgba(255, 255, 255, 0.9); /* highlight */
@@ -117,9 +113,9 @@ em {
 .navbar .brand a:hover {
 	text-decoration: none;
 	color:#E09D00;
- transition: color .15s linear;
- -webkit-transition: color .15s linear;
- -moz-transition: color .15s linear;
+ 	transition: color .15s linear;
+ 	-webkit-transition: color .15s linear;
+ 	-moz-transition: color .15s linear;
 }
 .navbar .brand a:focus {
 	outline: none;
@@ -456,7 +452,7 @@ footer p {
 	font-size: 1.3125em; /* 21px */
 	padding: 1em 0.5em;
 	letter-spacing: 0.05em;
-	margin: 1.5em auto 0;
+	margin: 4.5em auto 0;
 	display: block;
 	border: 0;
 	text-transform: none;
@@ -479,15 +475,10 @@ footer p {
 	height: auto;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
-09 Media queries --------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
-
-
 /* RESPONSIVE 
 -------------------------------------------------- */
 
-    @media (max-width: 1186px) {
+@media (max-width: 1186px) {
  .banner-caption {
 	    	/*	width: 18%; */
 	    	position: absolute;
@@ -561,10 +552,8 @@ footer p {
 #feature article {
 	text-align: center;
 	margin-top: 54px;
-	}
-.btn {
-		margin: 4.5em auto 0;
-	}
+}
+
 }
 
  #headerwrap h1 {
@@ -660,7 +649,10 @@ footer p {
  margin-left: auto;
  margin-right: auto;
 }
-		
+
+.btn {
+	margin: 1.5em auto 0;
+	}
 
 #theme-form {
  overflow: hidden;
