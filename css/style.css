@@ -562,10 +562,11 @@ footer p {
 	text-align: center;
 	margin-top: 54px;
 	}
-}
 .btn {
-	margin: 4.5em auto 0;
+		margin: 4.5em auto 0;
+	}
 }
+
  #headerwrap h1 {
  font-size:4em;
  padding-top: 20px;
