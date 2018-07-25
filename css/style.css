@@ -438,6 +438,7 @@ footer p {
  #headerwrap {
  padding-top:0;
 }
+
 }
  @media (max-width: 767px) {
  .container {
@@ -455,7 +456,16 @@ footer p {
 }
 
 .btn {
-	margin: 1.5em auto 0;
+margin: 1.5em auto 0;
+	}
+#headerwrap {
+ width: 100%;
+ background:black;
+ padding-top:0;
+ }
+
+#feature article {
+margin-top: 12px;
 	}
 }
     
@@ -472,7 +482,7 @@ footer p {
 }
 #feature {
     background: #969696;
-    height: 310px;
+    height: 360px;
 	}
 }
 
@@ -495,7 +505,7 @@ footer p {
  font-family: 'Roboto Slab', serif;
  font-size: 25px; 
  margin-bottom: 0;
- line-height: 30px;
+ line-height: 28px;
  color: #fff;
 }
 
@@ -564,17 +574,16 @@ footer p {
 }
 
 /* Smartphones (landscape) ----------- */
-@media (min-width : 321px) {
+/* @media (min-width : 321px) {
  #feature-headline {
- font-size: 32px; /* 34px */
-	}
+ font-size: 32px;
 #feature article {
 	margin-top: 60px;
 	}
 #headerwrap {
 	padding-top:60px;
 }
-}
+} */
 
 /* Smartphones (portrait) ----------- */
 @media only screen  and (max-width : 320px) {
