@@ -70,7 +70,7 @@ h5 {
 }
 strong {
 	font-weight:normal;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -494,7 +494,7 @@ footer p {
  color: #007ac3;
 }
  #intro-caption {
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto Slab', serif;
  text-align: center;
  font-size: 60px;
  line-height: 70px;
@@ -562,7 +562,7 @@ footer p {
 }
 #feature article {
 	text-align: center;
-	margin-top: 54px;
+	margin-top: 3px;
 }
 
 }
@@ -590,7 +590,7 @@ footer p {
  text-align:center
 }
  #feature article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto Slab', serif;
  font-size: 26px; 
  margin-bottom: 0;
  line-height: 30px;
@@ -624,7 +624,7 @@ footer p {
  top: 0 !important;
 }
  #feature article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto Slab', serif;
  font-size: 15px;
  margin-bottom: 0;
  line-height: 30px;
@@ -674,19 +674,19 @@ footer p {
 }
 
 /* Smartphones (landscape) ----------- */
-	@media only screen  and (min-width : 321px) {
+@media only screen  and (min-width : 321px) {
  #feature-headline {
  font-size: 32px; /* 34px */
 }
 }
-	
-	/* Smartphones (portrait) ----------- */
-	@media only screen  and (max-width : 320px) {
+
+/* Smartphones (portrait) ----------- */
+@media only screen  and (max-width : 320px) {
  #feature-headline {
  font-size: 1.1875em; /* 19px */
 }
  #feature article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto Slab', serif;
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
