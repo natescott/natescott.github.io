@@ -60,14 +60,7 @@ sup {
 sub {
 	bottom: -0.25em;
 }
-/* img {
-	width: auto\9;
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
-	-ms-interpolation-mode: bicubic;
-} */
+
 
 .add-bottom-space {
 	margin-bottom: 30px;
