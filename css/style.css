@@ -523,11 +523,18 @@ footer p {
  section.single-page {
  padding: 1em 0;
 }
-}
+
 #portfolio .container {
  top: 0 !important;
 }
-
+ #feature article p {
+ font-family: 'Roboto Slab', serif;
+ font-size: 15px;
+ margin-bottom: 0;
+ line-height: 30px;
+ color: #fff;
+	}
+}
 	
 #skillset h1 {
  background: transparent;
