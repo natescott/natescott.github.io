@@ -364,9 +364,7 @@ section#skillset .span3:hover {
 footer p {
 	margin-top: -130px;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
-08 Buttons ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */    
+  
 .btn {
 	font-family: 'Roboto Slab', serif;
 	color: #fff;
@@ -399,13 +397,10 @@ footer p {
 	height: auto;
 }
 
-/* RESPONSIVE 
--------------------------------------------------- */
 
 @media (max-width: 1186px) {
  .banner-caption {
-	    	/*	width: 18%; */
-	    	position: absolute;
+	position: absolute;
  left: 20%;
  top: 6%;
  color: #007ac3;
@@ -472,14 +467,20 @@ footer p {
 	}
 }
     
-/* Smaller screens ----------- */
+
 @media (max-width : 480px) {
- #headerwrap {
- padding-top:0;
+#headerwrap {
+	width: 100%;
+	background: url(../img/top-bg.jpg);
+	padding-top:0;
 }
 #feature article {
 	text-align: center;
-	margin-top: 3px;
+	margin-top: 12px;
+}
+#feature {
+    background: #969696;
+    height: 310px;
 }
 
 }
