@@ -238,7 +238,7 @@ section.single-page h1 {
 
 #feature article {
 	text-align: center;
-	margin-top: 85px;
+	margin-top: 75px;
 }
 
 #feature-headline {
@@ -360,90 +360,7 @@ section#skillset .span3:hover {
 	background:#e3e3e3;
 	box-shadow: 1px 1px 6px #C1BAC1;
 }
-/* Testimonials */
 
-section#testimonials {
-	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
-	padding: 0;
-	color: #e4e5e2;
-	z-index: 500;
-	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
-}
-section#testimonials .blockquote-wrapper {
-	display: table-cell;
-	vertical-align: middle;
-	height:  647px;
-}
-blockquote.mega {
-}
-blockquote.mega p {
-	font-size: 45px;
-	line-height: 50px;
-	text-align: left;
-	font-family: 'Roboto Slab', serif;
-	font-weight:bold;
-	color:#312A1E;
-}
-blockquote.mega .cite {
-	font-size: 22px;
-	text-align: left;
-	font-weight:300;
-}
-
-section#news {
-	background: url("../img/grey-cardboard-bg.png") repeat 0 0;
-}
-section#news .align {
-	font-size: 6em;
-	text-align: center;
-}
-article.post {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
-	border-bottom-left-radius: 6px;
-	border-bottom-right-radius: 6px;
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-}
-article .inside {
-	margin: 18px 24px 24px;
-	padding-top: 1em;
-	background: url("../img/dot-row-2.png") repeat-x scroll 0 0 transparent !important;
-}
-.post-date {
-	color: #A5A5A2;
-	float: right;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-style: normal;
-	line-height: 2;
-	margin-right: 5px;
-}
-#news h1 {
-	font-size: 3em;
-	margin-bottom: 1em;
-	margin-top: 0.5em;
-}
-#news h2 {
-	font-size: 21px;
-	margin-top: 24px;
-	margin-bottom: 16px;
-	color: #312A1E;
-	clear: right;
-}
-
-
-#map-wrapper {
-	margin-top: 20px;
-}
-footer {
-	text-align: center;
-	color: #1a1a1a;
-	font-weight: bold;
-}
 footer p {
 	margin-top: -130px;
 }
@@ -591,7 +508,7 @@ footer p {
 }
  #feature article p {
  font-family: 'Roboto Slab', serif;
- font-size: 26px; 
+ font-size: 25px; 
  margin-bottom: 0;
  line-height: 30px;
  color: #fff;
