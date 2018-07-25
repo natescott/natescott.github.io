@@ -254,13 +254,13 @@ section.single-page h1 {
 	font-family: 'Roboto Slab', serif;
 	text-transform: lowercase;
 }
-#feature article p {
+/* #feature article p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 30px;
 	margin-bottom: 0;
 	line-height: 1.35;
 	color: #fff;
-}
+} */
 
 
 section#portfolio {
@@ -390,7 +390,7 @@ footer p {
 	color: #fff;
 }
 .btn:hover {
-	background: #312A1E !important;
+	background: #969696 !important;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
@@ -471,7 +471,7 @@ footer p {
 @media (max-width : 480px) {
 #headerwrap {
 	width: 100%;
-	background: url(../img/top-bg.jpg);
+	background: #312A1E;
 	padding-top:0;
 }
 #feature article {
@@ -481,8 +481,7 @@ footer p {
 #feature {
     background: #969696;
     height: 310px;
-}
-
+	}
 }
 
  #headerwrap h1 {
@@ -534,8 +533,13 @@ footer p {
  line-height: 30px;
  color: #fff;
 	}
+#headerwrap {
+ width: 100%;
+ background:black;
+ padding-top:0;
+	}
 }
-	
+
 #skillset h1 {
  background: transparent;
 }
@@ -568,10 +572,16 @@ footer p {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen  and (min-width : 321px) {
+@media (min-width : 321px) {
  #feature-headline {
  font-size: 32px; /* 34px */
 	}
+#feature article {
+	margin-top: 60px;
+	}
+#headerwrap {
+	padding-top:60px;
+}
 }
 
 /* Smartphones (portrait) ----------- */
