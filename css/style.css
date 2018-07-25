@@ -1,4 +1,4 @@
-iv, article, section, header, footer, nav, li {
+iv, article, section, header, nav, li {
 	position:relative;
 }
 .group:after {
@@ -500,13 +500,6 @@ footer p {
  width: 135px;
 }
 
- #team .team-thumb {
- margin-right: auto;
- margin-left: auto;
- width: 150px;
- display: block;
- text-align:center
-}
  #feature article p {
  font-family: 'Roboto Slab', serif;
  font-size: 25px; 
@@ -530,36 +523,12 @@ footer p {
  section.single-page {
  padding: 1em 0;
 }
-		
-#news h1 {
- background: transparent;
 }
- #news h1 span {
- background: transparent;
- padding: 0;
-}
- #portfolio .container {
+#portfolio .container {
  top: 0 !important;
 }
- #feature article p {
- font-family: 'Roboto Slab', serif;
- font-size: 15px;
- margin-bottom: 0;
- line-height: 30px;
- color: #fff;
-}
- .img-news {
- width: 100%;
-}
- .img-news {
- margin-right: auto;
- margin-left: auto;
- display: block;
-}
- section#portfolio hgroup h2 {
- margin-top: 1.5em;
-}
-		
+
+	
 #skillset h1 {
  background: transparent;
 }
@@ -580,22 +549,22 @@ footer p {
 }
 
 .btn {
-	margin-bottom: 25px;
-	}
+ margin-bottom: 25px;
+}
 
-#theme-form {
- overflow: hidden;
-}
- #theme-form input[type=submit] {
- width: 100%;
-}
+#footnotes {
+ font-size: 0.75em;
+ line-height: 2;
+ margin-top: 2em;
+ margin-bottom: 0em;
+ text-align: center;
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen  and (min-width : 321px) {
  #feature-headline {
  font-size: 32px; /* 34px */
-}
+	}
 }
 
 /* Smartphones (portrait) ----------- */
