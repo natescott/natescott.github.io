@@ -173,7 +173,7 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -184,7 +184,7 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
