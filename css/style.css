@@ -152,7 +152,6 @@ ul#menu-main > li > a:hover {
 }
 
 #headerwrap {
-	width: 100%;
 	background: url(../img/bridgePic.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -527,9 +526,10 @@ margin-top: 12px;
 	}
 
 #headerwrap {
-	width: 100%;
 	background: url(../img/bridgePicmobile.jpg);
 	background-size: cover;
+	background-position: top center;
+	padding: 50px 0 50px 0;
 	}
 }
 
@@ -589,11 +589,13 @@ margin-top: 12px;
  color: #fff;
 }
 #headerwrap {
-	width: 100%;
 	background: url(../img/bridgePicmobile.jpg);
 	background-size: cover;
+	background-position: top center;
+	padding: 50px 0 50px 0;
 	}
 }
+
 
 	
 
