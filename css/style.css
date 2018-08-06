@@ -158,7 +158,6 @@ ul#menu-main > li > a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	;
 	min-height: 600px;
 	margin-top: -60px;
 	padding-top:106px;
@@ -526,6 +525,12 @@ margin-top: 12px;
  line-height: 30px;
  color: #fff;
 	}
+
+#headerwrap {
+	width: 100%;
+	background: url(../img/bridgePicmobile.jpg);
+	background-size: cover;
+	}
 }
 
 #skillset h1 {
@@ -583,6 +588,12 @@ margin-top: 12px;
  line-height: 30px;
  color: #fff;
 }
+#headerwrap {
+	width: 100%;
+	background: url(../img/bridgePicmobile.jpg);
+	background-size: cover;
+	}
 }
+
 	
 
