@@ -152,7 +152,7 @@ ul#menu-main > li > a:hover {
 }
 
 #headerwrap {
-	background: url(../img/bridgePic.jpg) no-repeat center center fixed;
+	background: url(../img/bridgePiclandscape.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -544,6 +544,7 @@ background-position: top center;
 padding: 50px 0 50px 0;
 }
 }
+
 
 #skillset h1 {
  background: transparent;
