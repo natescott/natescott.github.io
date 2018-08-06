@@ -161,7 +161,7 @@ ul#menu-main > li > a:hover {
 	;
 	min-height: 600px;
 	margin-top: -60px;
-	padding-top:160px;
+	padding-top:106px;
 	text-align:center;
 }
 #headerwrap h1 {
@@ -458,11 +458,6 @@ footer p {
 .btn {
 margin: 1.5em auto 0;
 	}
-#headerwrap {
- width: 100%;
- background:black;
- padding-top:0;
- }
 
 #feature article {
 margin-top: 12px;
@@ -471,11 +466,7 @@ margin-top: 12px;
     
 
 @media (max-width : 480px) {
-#headerwrap {
-	width: 100%;
-	background: #312A1E;
-	padding-top:0;
-}
+
 #feature article {
 	text-align: center;
 	margin-top: 12px;
@@ -534,11 +525,6 @@ margin-top: 12px;
  margin-bottom: 0;
  line-height: 30px;
  color: #fff;
-	}
-#headerwrap {
- width: 100%;
- background:black;
- padding-top:0;
 	}
 }
 
