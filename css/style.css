@@ -500,7 +500,7 @@ margin-top: 12px;
 
     
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen  and (min-width : 320px)  and (max-width : 480px) {
+@media (max-width : 480px) {
  #feature-headline {
  background: transparent;
  text-indent: 0;
@@ -526,18 +526,23 @@ margin-top: 12px;
 	}
 
 #headerwrap {
-	background: url(../img/bridgePicmobile.jpg);
-	background-size: cover;
-	background-position: top center;
-	padding: 50px 0 50px 0;
+background: url(../img/bridgePicmobile.jpg);
+background-size: cover;
+background-position: top center;
+padding: 50px 0 50px 0;
 	}
 }
 
-@media only screen  and (min-width : 320px)  and (max-width : 568px) {
+@media (max-width : 568px) {
 #feature article p {
-font-size: 20px;
+font-size: 17px;
 }
-
+#headerwrap {
+background: url(../img/bridgePiclandscape.jpg);
+background-size: cover;
+background-position: top center;
+padding: 50px 0 50px 0;
+}
 }
 
 #skillset h1 {
@@ -590,7 +595,3 @@ font-size: 20px;
 	padding: 50px 0 50px 0;
 	}
 }
-
-
-	
-
