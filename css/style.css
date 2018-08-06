@@ -152,7 +152,7 @@ ul#menu-main > li > a:hover {
 }
 
 #headerwrap {
-	background: url(../img/bridgePiclandscape.jpg) no-repeat center center fixed;
+	background: url(../img/bridgePiclandscape.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
