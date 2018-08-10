@@ -464,6 +464,10 @@ margin-top: 12px;
     
 
 @media (max-width : 480px) {
+	
+#headerwrap {
+	background: url(../img/bridgePiclandscape.jpg) no-repeat center;
+	}
 
 #feature article {
 	text-align: center;
@@ -534,6 +538,9 @@ padding: 50px 0 50px 0;
 }
 
 @media (max-width : 568px) {
+#headerwrap {
+	background: url(../img/bridgePiclandscape.jpg) no-repeat center;
+	}
 #feature article p {
 font-size: 17px;
 }
@@ -579,6 +586,9 @@ padding: 50px 0 50px 0;
 
 /* Smartphones (portrait) ----------- */
 @media only screen  and (max-width : 320px) {
+#headerwrap {
+	background: url(../img/bridgePiclandscape.jpg) no-repeat center;
+	}
  #feature-headline {
  font-size: 1.1875em; /* 19px */
 }
