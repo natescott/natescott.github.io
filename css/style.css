@@ -439,6 +439,12 @@ footer p {
 
 }
  @media (max-width: 767px) {
+#headerwrap {
+background: url(../img/bridgePiclandscape.jpg) no-repeat center;
+background-size: cover;
+background-position: top center;
+padding: 50px 0 50px 0;
+}
  .container {
  padding-right: 5px;
  padding-left: 5px;
