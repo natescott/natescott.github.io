@@ -538,14 +538,11 @@ padding: 50px 0 50px 0;
 }
 
 @media (max-width : 568px) {
-#headerwrap {
-	background: url(../img/bridgePiclandscape.jpg) no-repeat center;
-	}
 #feature article p {
 font-size: 17px;
 }
 #headerwrap {
-background: url(../img/bridgePiclandscape.jpg);
+background: url(../img/bridgePiclandscape.jpg) no-repeat center;
 background-size: cover;
 background-position: top center;
 padding: 50px 0 50px 0;
